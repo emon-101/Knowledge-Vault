@@ -24,7 +24,6 @@
 .btn-primary:hover {
     background-color: rgba(255, 255, 255, 1);
     color: rgba(0, 0, 0, 1);
-    border: 1px solid rgba(70, 145, 101, 1);
 }
 /* Header Section */
 nav {
@@ -48,4 +47,51 @@ nav {
     font-size: 16px;
     font-weight: 500;
     color: rgba(0, 0, 0, 1);
+}
+
+/* banner section */
+.banner {
+    background: url("./assets/hero-bg.png");
+    padding: 160px 0;
+    text-align: center;
+    background-repeat: no-repeat;
+}
+
+
+.banner-btn {
+    padding: 8px 12px;
+    background-color: rgba(255, 255, 255, 1);
+    border: none;
+    border-radius: 1000px;
+    color: #30B868;
+    font-weight: 500;
+    margin-bottom: 24px;
+}
+
+.banner-content h1 {
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 84px;
+    letter-spacing: 0;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 16px;
+}
+
+.banner-content h1 span {
+    color: rgba(70, 145, 101, 1);
+}
+
+.banner-content p {
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 32px;
+}
+
+.btn-secondary {
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 1);
+    padding: 12px 18px;
+    margin-left: 16px;
 }
