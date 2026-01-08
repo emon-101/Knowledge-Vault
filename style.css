@@ -164,3 +164,50 @@ nav {
     color: #627382;
     text-align: center;
 }
+
+/* Hero section */
+
+.hero-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 120px;
+    margin-bottom: 120px;
+}
+
+.hero-img, .hero-content {
+    width: 40%;
+}
+
+.hero-content h4 {
+    font-weight: 500;
+    color: #30B868;
+    margin-bottom: 16px;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #001931;
+    letter-spacing: 0;
+    margin-bottom: 16px;
+}
+
+.hero-content > p {
+    color: #627382;
+    margin-bottom: 40px;
+    line-height: 20px;
+    letter-spacing: 0;
+}
+
+.checklist {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 16px;
+}
+
+.checklist p {
+    color: rgba(0, 25, 49, 1);
+    font-weight: 500;
+}
