@@ -95,3 +95,72 @@ nav {
     padding: 12px 18px;
     margin-left: 16px;
 }
+
+/* main section */
+
+/* card section */
+
+.card-content {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.card-content h1 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #001931;
+    margin-bottom: 16px;
+    letter-spacing: 0;
+}
+
+.card-content p {
+    color: #627382;
+}
+
+.card-img {
+    padding: 10px;
+    border-radius: 100%;
+    background: rgba(249, 85, 85, 1);
+    width: 60px;
+    height: 60px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-img img {
+    width: 60%;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+    padding: 0 120px;
+    margin-bottom: 72px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    padding: 24px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
+}
+
+.card h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #001931;
+    text-align: center;
+}
+
+.card p {
+    color: #627382;
+    text-align: center;
+}
