@@ -65,7 +65,11 @@ nav {
     border-radius: 1000px;
     color: #30B868;
     font-weight: 500;
-    margin-bottom: 24px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    justify-content: center;
+    margin: 0 auto;
 }
 
 .banner-content h1 {
@@ -75,6 +79,7 @@ nav {
     letter-spacing: 0;
     color: rgba(255, 255, 255, 1);
     margin-bottom: 16px;
+    margin-top: 24px;
 }
 
 .banner-content h1 span {
