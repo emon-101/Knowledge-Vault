@@ -172,7 +172,6 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 20px 120px;
-    margin-bottom: 120px;
 }
 
 .hero-img, .hero-content {
@@ -210,4 +209,31 @@ nav {
 .checklist p {
     color: rgba(0, 25, 49, 1);
     font-weight: 500;
+}
+
+/* Early Section */
+.early-container {
+    background-color: rgba(247, 246, 242, 1);
+    border-radius: 8px;
+    padding: 80px 40px;
+    margin: 120px 120px;
+}
+.early-content {
+    text-align: center;
+}
+
+.early-content h1 {
+    color: rgba(0, 25, 49, 1);
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.early-content p {
+    color: #627382;
+    margin-bottom: 24px;
+}
+
+.early-content button {
+    margin-bottom: 24px;
 }
